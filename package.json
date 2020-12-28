@@ -6,10 +6,15 @@
     "dev:frontend": "yarn --cwd packages/frontend/ dev",
     "dev:mobile:start": "yarn --cwd packages/FaculdadeMobile start",
     "dev:mobile:android": "yarn --cwd packages/FaculdadeMobile android",
-    "dev:server": "yarn --cwd packages/server/ dev"
+    "dev:server": "yarn --cwd packages/server/ dev",
+    "clean": "find . -name \"node_modules\" -type d -prune -exec rm -rf '{}' +"
   },
-  "workspaces": [
-    "packages/**"
-  ]
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
 }
-
