@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev:frontend": "yarn --cwd packages/frontend/ dev",
-    "dev:mobile": "yarn --cwd packages/mobile/ dev",
+    "dev:mobile:start": "yarn --cwd packages/FaculdadeMobile start",
+    "dev:mobile:android": "yarn --cwd packages/FaculdadeMobile android",
     "dev:server": "yarn --cwd packages/server/ dev"
   },
   "workspaces": [
