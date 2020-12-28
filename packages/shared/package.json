@@ -1,0 +1,8 @@
+{
+  "name": "@faculdade/shared",
+  "version": "1.0.0",
+  "description": "Shared lib between frontend and mobile app",
+  "main": "index.ts",
+  "author": "Washington Junior",
+  "license": "MIT"
+}
